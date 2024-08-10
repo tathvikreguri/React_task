@@ -1,0 +1,21 @@
+import React from 'react';
+import '../FastSection.css';
+
+const FastSection = () => {
+  return (
+    <section id="fast" className="fast-section">
+      <div className="content">
+        <h1>Fast, easy-to-use tools for your browser</h1>
+        <p>
+          Chrome is designed to be fast in every possible way. It’s quick to start up from your desktop, loads webpages in a snap, and runs complex web applications lightning fast.
+        </p>
+        <a href="https://www.google.com/intl/en_in/chrome/#fast" className="learn-more-btn">Learn More</a>
+      </div>
+      <div className="image-container">
+        <img src="https://www.google.com/chrome/static/images/homepage/laptop.png" alt="Fast Chrome" />
+      </div>
+    </section>
+  );
+};
+
+export default FastSection;
