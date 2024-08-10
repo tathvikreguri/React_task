@@ -1,0 +1,19 @@
+import React from 'react'
+import '../Header2.css'
+
+function Header2() {
+  return (
+    <div className="navig">
+       <ul className="nav-links">
+            <li><a href="#Home">updates</a></li>
+            <li><a href="#yours">Yours</a></li>
+            <li><a href="#features">Safe</a></li>
+            <li><a href="#fast">fast</a></li>
+            <li><a href="#support">By Google</a></li>
+          </ul>
+    </div>
+  )
+}
+
+export default Header2
+
